@@ -5,6 +5,38 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/*----------------------- menu-bar design------------------ */
+nav{
+    display: flex;
+    justify-content: space-between; 
+    background-color:  #562EFF;;
+}
+.image-side{
+    position: absolute;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ .menu-bar{
+    display: flex;
+    /* padding: absolute; */
+    
+    
+ }
+
+.menu-bar a{
+    text-decoration: none;
+    /* margin-top: 15px;  */
+    /* padding: 5px; */
+    /* position: absolute; */
+    /* color: #562EFF; */
+    margin-top: 15px;
+    /* margin-left: 15px; */
+    margin-right: 10px;
+    color: white;
+    
+
+}
 main{
     display: flex;
     flex-direction: column;
